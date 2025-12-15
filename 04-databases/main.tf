@@ -12,6 +12,7 @@ module "mongodb" {
     },
     {
       Name = "${local.ec2_name}-mongodb"
+      #Name = "${local.ec2_name}-mongodb"
     }
   )
 }
