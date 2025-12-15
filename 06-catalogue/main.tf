@@ -159,6 +159,7 @@ resource "aws_autoscaling_policy" "catalogue" {
   autoscaling_group_name = aws_autoscaling_group.catalogue.name
   name                   = "${local.name}-${var.tags.Component}"
   policy_type            = "TargetTrackingScaling"
+  #policy_type            = "TargetTrackingScaling"
 
   target_tracking_configuration {
     predefined_metric_specification {
