@@ -18,6 +18,7 @@ module "mongodb" {
 }
 
 resource "null_resource" "mongodb" {
+  #resource "null_resource" "mongodb" {
   # Changes to any instance of the cluster requires re-provisioning
   triggers = {
     instance_id = module.mongodb.id
