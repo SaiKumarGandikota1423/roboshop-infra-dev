@@ -20,5 +20,6 @@ variable "environment" {
 }
 
 variable "zone_name" {
-  default = "daws76s.online"
+  default = "devopsawscloud.shop"
+  #default = "daws76s.online"
 }
