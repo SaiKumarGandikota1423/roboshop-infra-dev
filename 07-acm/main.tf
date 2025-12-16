@@ -1,5 +1,6 @@
 resource "aws_acm_certificate" "daws76s" {
-  domain_name       = "*.daws76s.online"
+  domain_name       = "*.devopsawscloud.shop"
+  #domain_name       = "*.daws76s.online"
   validation_method = "DNS"
 
   tags = merge(
